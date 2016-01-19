@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64D256F81C41485B004B2188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D256F71C41485B004B2188 /* AppDelegate.swift */; };
+		64D256FA1C41485B004B2188 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D256F91C41485B004B2188 /* ViewController.swift */; };
+		64D256FD1C41485B004B2188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D256FB1C41485B004B2188 /* Main.storyboard */; };
+		64D257001C41485B004B2188 /* ColorGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64D256FE1C41485B004B2188 /* ColorGame.xcdatamodeld */; };
+		64D257021C41485B004B2188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D257011C41485B004B2188 /* Assets.xcassets */; };
+		64D257051C41485B004B2188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D257031C41485B004B2188 /* LaunchScreen.storyboard */; };
+		64D2570F1C4149F2004B2188 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D2570E1C4149F2004B2188 /* ColorModel.swift */; };
+		64D257111C414CF2004B2188 /* Color+HexAndCSSColorNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D257101C414CF2004B2188 /* Color+HexAndCSSColorNames.swift */; };
+		64D257181C45326E004B2188 /* Record+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D257161C45326E004B2188 /* Record+CoreDataProperties.swift */; };
+		64D257191C45326E004B2188 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D257171C45326E004B2188 /* Record.swift */; };
+		64D2571B1C453C3A004B2188 /* RecordTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D2571A1C453C3A004B2188 /* RecordTVC.swift */; };
+		64D2573E1C46A07B004B2188 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D2573D1C46A07B004B2188 /* MainVC.swift */; };
+		64D257B11C4D4024004B2188 /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D257B01C4D4024004B2188 /* config.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64D256F41C41485A004B2188 /* ColorGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D256F71C41485B004B2188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64D256F91C41485B004B2188 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64D256FC1C41485B004B2188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64D256FF1C41485B004B2188 /* ColorGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ColorGame.xcdatamodel; sourceTree = "<group>"; };
+		64D257011C41485B004B2188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64D257041C41485B004B2188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64D257061C41485B004B2188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64D2570E1C4149F2004B2188 /* ColorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
+		64D257101C414CF2004B2188 /* Color+HexAndCSSColorNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+HexAndCSSColorNames.swift"; sourceTree = "<group>"; };
+		64D257161C45326E004B2188 /* Record+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Record+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		64D257171C45326E004B2188 /* Record.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		64D2571A1C453C3A004B2188 /* RecordTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordTVC.swift; sourceTree = "<group>"; };
+		64D2573D1C46A07B004B2188 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		64D257B01C4D4024004B2188 /* config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64D256F11C41485A004B2188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64D256EB1C41485A004B2188 = {
+			isa = PBXGroup;
+			children = (
+				64D257161C45326E004B2188 /* Record+CoreDataProperties.swift */,
+				64D257171C45326E004B2188 /* Record.swift */,
+				64D256F61C41485A004B2188 /* ColorGame */,
+				64D256F51C41485A004B2188 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64D256F51C41485A004B2188 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64D256F41C41485A004B2188 /* ColorGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64D256F61C41485A004B2188 /* ColorGame */ = {
+			isa = PBXGroup;
+			children = (
+				64D256F71C41485B004B2188 /* AppDelegate.swift */,
+				64D2573D1C46A07B004B2188 /* MainVC.swift */,
+				64D256F91C41485B004B2188 /* ViewController.swift */,
+				64D2571A1C453C3A004B2188 /* RecordTVC.swift */,
+				64D2570E1C4149F2004B2188 /* ColorModel.swift */,
+				64D257B01C4D4024004B2188 /* config.swift */,
+				64D256FB1C41485B004B2188 /* Main.storyboard */,
+				64D257101C414CF2004B2188 /* Color+HexAndCSSColorNames.swift */,
+				64D257011C41485B004B2188 /* Assets.xcassets */,
+				64D257031C41485B004B2188 /* LaunchScreen.storyboard */,
+				64D257061C41485B004B2188 /* Info.plist */,
+				64D256FE1C41485B004B2188 /* ColorGame.xcdatamodeld */,
+			);
+			path = ColorGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64D256F31C41485A004B2188 /* ColorGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D257091C41485B004B2188 /* Build configuration list for PBXNativeTarget "ColorGame" */;
+			buildPhases = (
+				64D256F01C41485A004B2188 /* Sources */,
+				64D256F11C41485A004B2188 /* Frameworks */,
+				64D256F21C41485A004B2188 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorGame;
+			productName = ColorGame;
+			productReference = 64D256F41C41485A004B2188 /* ColorGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64D256EC1C41485A004B2188 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = JohnHuang;
+				TargetAttributes = {
+					64D256F31C41485A004B2188 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = M9LB9B2YG2;
+					};
+				};
+			};
+			buildConfigurationList = 64D256EF1C41485A004B2188 /* Build configuration list for PBXProject "ColorGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64D256EB1C41485A004B2188;
+			productRefGroup = 64D256F51C41485A004B2188 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64D256F31C41485A004B2188 /* ColorGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64D256F21C41485A004B2188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D257051C41485B004B2188 /* LaunchScreen.storyboard in Resources */,
+				64D257021C41485B004B2188 /* Assets.xcassets in Resources */,
+				64D256FD1C41485B004B2188 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64D256F01C41485A004B2188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D256FA1C41485B004B2188 /* ViewController.swift in Sources */,
+				64D256F81C41485B004B2188 /* AppDelegate.swift in Sources */,
+				64D257111C414CF2004B2188 /* Color+HexAndCSSColorNames.swift in Sources */,
+				64D257B11C4D4024004B2188 /* config.swift in Sources */,
+				64D257001C41485B004B2188 /* ColorGame.xcdatamodeld in Sources */,
+				64D2573E1C46A07B004B2188 /* MainVC.swift in Sources */,
+				64D257191C45326E004B2188 /* Record.swift in Sources */,
+				64D257181C45326E004B2188 /* Record+CoreDataProperties.swift in Sources */,
+				64D2571B1C453C3A004B2188 /* RecordTVC.swift in Sources */,
+				64D2570F1C4149F2004B2188 /* ColorModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64D256FB1C41485B004B2188 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64D256FC1C41485B004B2188 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64D257031C41485B004B2188 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64D257041C41485B004B2188 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64D257071C41485B004B2188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64D257081C41485B004B2188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64D2570A1C41485B004B2188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColorGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnhuang.ColorGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64D2570B1C41485B004B2188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColorGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnhuang.ColorGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64D256EF1C41485A004B2188 /* Build configuration list for PBXProject "ColorGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D257071C41485B004B2188 /* Debug */,
+				64D257081C41485B004B2188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64D257091C41485B004B2188 /* Build configuration list for PBXNativeTarget "ColorGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D2570A1C41485B004B2188 /* Debug */,
+				64D2570B1C41485B004B2188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		64D256FE1C41485B004B2188 /* ColorGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				64D256FF1C41485B004B2188 /* ColorGame.xcdatamodel */,
+			);
+			currentVersion = 64D256FF1C41485B004B2188 /* ColorGame.xcdatamodel */;
+			path = ColorGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 64D256EC1C41485A004B2188 /* Project object */;
+}
